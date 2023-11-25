@@ -59,7 +59,7 @@
                 <button class="btn-search"></button>
               </form>
               <div class="buy">
-                <div class="number">4</div>
+                <div class="number">0</div>
               </div>
             </div>
           </div>
@@ -511,5 +511,57 @@
         </div>
       </div>
     </footer>
+    <!-- вспливаюча форма -->
+    <form action="" class="form-test">
+      <div class="form_header">
+        <h3>Вхід</h3>
+        <span class="close-form"></span>
+      </div>
+      <div class="form_content">
+        <div class="authorize">
+          <span class="auth-variable">або</span>
+          <div class="auth-mail">
+            <label for="mail-inp" class="auth-label">
+              Ел. пошта або телефон
+            </label>
+            <input
+              type="email "
+              id="mail-inp"
+              name="email"
+              autocomplete="off"
+            />
+          </div>
+          <div class="auth-password">
+            <label for="pass-inp">Пароль</label>
+            <div class="auth-pass-row">
+              <input
+                type="password"
+                id="pass-inp"
+                name="paswrd"
+                autocomplete="off"
+              />
+              <button class="pass-look"></button>
+            </div>
+          </div>
+          <div class="auth-remember-row">
+            <div class="auth-rememb">
+              <input type="checkbox" id="remember-inp" />
+              <label for="remember-inp">Запам'ятати мене </label>
+            </div>
+            <a href="" class="rememb-link">Нагадати пароль</a>
+          </div>
+          <button class="enter-btn">Увійти</button>
+          <button class="registration-btn">Зареєструватися</button>
+        </div>
+        <div class="social">
+          <p>Увійти за допомогою</p>
+          <button class="soc-facebook">Facebook</button>
+          <button class="soc-google">Google</button>
+        </div>
+      </div>
+    </form>
+    <!-- затемнення -->
+    <div class="overlay"></div>
+    <script src="app.js"></script>
   </body>
 </html>
